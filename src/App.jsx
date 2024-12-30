@@ -8,6 +8,11 @@ function App() {
 
   return (
     <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hiddenl">
+
+      {/* BG */}
+      <div className="fixed inset-0 z-0">
+
+      </div>
       
       <Routes>
         <Route path="/" element={<OverviewPage />} />
