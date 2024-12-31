@@ -1,4 +1,4 @@
-import { BarChart2, ShoppingBag, User, Users } from 'lucide-react'
+import { BarChart2, DollarSign, Settings, ShoppingBag, ShoppingCart, TrendingUp, User, Users } from 'lucide-react'
 import React from 'react'
 
 const SIDEBAR_ITEMS = [
@@ -21,28 +21,28 @@ const SIDEBAR_ITEMS = [
     path: "/users",
   },
   {
-    name: "Overview",
-    icon: BarChart2,  
-    color : "#6366f1",
-    path: "/",
+    name: "Sales",
+    icon: DollarSign,  
+    color : "#10B981",
+    path: "/sales",
   },
   {
-    name: "Overview",
-    icon: BarChart2,  
-    color : "#6366f1",
-    path: "/",
+    name: "Orders",
+    icon: ShoppingCart,  
+    color : "#F59E0B",
+    path: "/orders",
   },
   {
-    name: "Overview",
-    icon: BarChart2,  
-    color : "#6366f1",
-    path: "/",
+    name: "Analytics",
+    icon: TrendingUp,  
+    color : "#EB82F6",
+    path: "/analytics",
   },
   {
-    name: "Overview",
-    icon: BarChart2,  
-    color : "#6366f1",
-    path: "/",
+    name: "Settings",
+    icon: Settings,  
+    color : "#6EE7B7",
+    path: "/settings",
   },
 ]
 
