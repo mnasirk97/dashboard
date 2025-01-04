@@ -24,7 +24,10 @@ function OverviewPage() {
 					<StatCard name='Conversion Rate' icon={BarChart2} value='12.5%' color='#10B981' />
 				</motion.div>
 
-          
+          {/* CHARTS */}
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+
+          </div>
       </main>
     </div>
   )
