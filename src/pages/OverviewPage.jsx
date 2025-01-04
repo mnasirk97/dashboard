@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import StatCard from '../components/common/StatCard'
 import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 import SalesOverviewChart from '../components/overview/SalesOverviewChart'
+import Example from '../components/overview/PiChart'
 
 function OverviewPage() {
   return (
@@ -28,6 +29,7 @@ function OverviewPage() {
           {/* CHARTS */}
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           <SalesOverviewChart />
+          <Example />
 					{/* <CategoryDistributionChart />
 					<SalesChannelChart /> */}
           </div>
