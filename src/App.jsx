@@ -8,7 +8,8 @@ import Sidebar from "./components/Sidebar"
 function App() {
 
   return (
-    <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hiddenl">
+    // <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hiddenl">
+    <div className="flex h-screen bg-#E2E2E2 text-gray-100 overflow-hiddenl">
 
       {/* BG */}
       <div className="fixed inset-0 z-0">
