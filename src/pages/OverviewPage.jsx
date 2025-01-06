@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import StatCard from '../components/common/StatCard'
 import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react'
 import SalesOverviewChart from '../components/overview/SalesOverviewChart'
-import Example from '../components/overview/PiChart'
+// import Example from '../components/overview/PiChart'
 import CategoryDistributionChart from '../components/overview/CategoryDistributionChart'
 import SalesChannelChart from '../components/overview/SalesChannelChart'
 
