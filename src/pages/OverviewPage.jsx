@@ -7,6 +7,7 @@ import SalesOverviewChart from '../components/overview/SalesOverviewChart'
 // import Example from '../components/overview/PiChart'
 import CategoryDistributionChart from '../components/overview/CategoryDistributionChart'
 import SalesChannelChart from '../components/overview/SalesChannelChart'
+import MapComponent from '../components/overview/MapComponent'
 
 function OverviewPage() {
   return (
@@ -33,6 +34,7 @@ function OverviewPage() {
           <SalesOverviewChart />
           <CategoryDistributionChart />
           <SalesChannelChart />
+          <MapComponent />
           {/* <Example /> */}
 					{/* <CategoryDistributionChart />
 					<SalesChannelChart /> */}
