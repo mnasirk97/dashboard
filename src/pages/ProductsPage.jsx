@@ -1,10 +1,12 @@
 import { motion } from "framer-motion";
-
-import React from 'react'
-import Header from '../components/common/Header'
-
 import { AlertTriangle, DollarSign, Package, TrendingUp } from "lucide-react";
+
+
+import Header from '../components/common/Header'
 import StatCard from "../components/common/StatCard";
+import ProductTable from "../components/products/ProductTable";
+import CategoryDistributionChart from "../components/overview/CategoryDistributionChart";
+import SalesTrendChart from "../components/products/SalesTrendChart";
 
 function ProductsPage() {
   return (
@@ -25,13 +27,13 @@ function ProductsPage() {
 					<StatCard name='Total Revenue' icon={DollarSign} value={"$543,210"} color='#EF4444' />
 				</motion.div>
 
-				{/* <ProductsTable /> */}
+				<ProductTable />
 
 				{/* CHARTS */}
-				{/* <div className='grid grid-col-1 lg:grid-cols-2 gap-8'>
+				<div className='grid grid-col-1 lg:grid-cols-2 gap-8'>
 					<SalesTrendChart />
 					<CategoryDistributionChart />
-				</div> */}
+				</div>
 			</main>
     </div>
   )
