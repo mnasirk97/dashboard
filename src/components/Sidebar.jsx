@@ -98,8 +98,8 @@ function Sidebar() {
 
 export default Sidebar
 
-//===> code 02
 
+//===> code 02
 // import { BarChart2, DollarSign, Menu, Settings, ShoppingBag, ShoppingCart, TrendingUp, Users } from "lucide-react";
 // import { useState } from "react";
 // import { AnimatePresence, motion } from "framer-motion";
