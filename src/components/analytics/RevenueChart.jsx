@@ -36,6 +36,7 @@ const RevenueChart = () => {
 				</select>
 			</div>
 
+			{/* <div style={{ width: "100%", height: 250 }}> */}
 			<div style={{ width: "100%", height: 400 }}>
 				<ResponsiveContainer>
 					<AreaChart data={revenueData}>
